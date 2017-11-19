@@ -7,7 +7,7 @@
     "require": {
         "php": ">=7.0.0",
         "nervetattoo/elasticsearch" : ">=2.0",
-        "qiniu/php-sdk": "^7.1",
+        "qiniu/php-sdk": "^7.1"
     },
     "autoload": {
         "psr-4": {
