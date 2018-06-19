@@ -20,7 +20,7 @@ class FormFilter extends Plugin
     public function beforeExecuteRoute(Event $event, Dispatcher $dispatcher)
     {
         $di = \Phalcon\DI::getDefault();
-        /** @var \DaiBk\Models\Base\BasePageInfo $basePageInfo */
+        /** @var \Dai\Lib\Framework\Base\BasePageInfo $basePageInfo */
         $basePageInfo = $di->get('basePageInfo');
         $className = $basePageInfo->formCheck;
 
@@ -48,7 +48,7 @@ class FormFilter extends Plugin
             return true;
         }
 
-        /** @var \DaiBk\Models\Base\BaseParam $classIns */
+        /** @var \Dai\Lib\Framework\Base\BaseParam $classIns */
         $classIns = new $className();
         $classIns->vaild($classIns, $di, $basePageInfo);
         $basePageInfo->params = $classIns;
