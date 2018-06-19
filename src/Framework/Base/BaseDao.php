@@ -6,21 +6,20 @@
  * Time: 下午7:20
  */
 namespace Dai\Lib\Framework\Base;
-use Dai\Lib\Framework\Base\Exception;
 
-class Dao extends \Phalcon\Mvc\Model
+class BaseDao extends \Phalcon\Mvc\Model
 {
     /**
      * @param $sid
      * @param $param
      * @return mixed
-     * @throws DaiBkException
+     * @throws \Dai\Lib\Framework\Base\BaseException
      */
     public function execute($sid, $param)
     {
         $dirArr = explode(".", $sid);
         if( count($dirArr) != 3 ){
-            throw new Exception (Exception::INTER_ERROR);
+            throw new BaseException (BaseException::INTER_ERROR);
         }
         $file = APP_PATH."/config/sqlmap/".$dirArr[0]."/". $dirArr[1].".ini";
 

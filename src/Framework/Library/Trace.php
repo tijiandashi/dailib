@@ -6,7 +6,7 @@
  * Time: 下午7:05
  */
 
-namespace Dai\Lib;
+namespace Dai\Lib\Framework\Library;
 
 class Trace
 {

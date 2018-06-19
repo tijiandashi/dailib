@@ -12,7 +12,7 @@ namespace Dai\Lib\Framework\Base;
  * Class Response
  * @package Dai\Lib\Framework\Base
  */
-class Response
+class BaseResponse
 {
     public $code = 0;
     public $msg = "OK";

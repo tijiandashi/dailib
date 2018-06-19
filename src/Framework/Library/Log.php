@@ -5,14 +5,14 @@
  * Date: 2017/11/21
  * Time: 下午7:05
  */
-namespace Dai\Lib;
+namespace Dai\Lib\Framework\Library;
 
 use Phalcon\Logger;
 
 
 /**
  * Class Log
- * @package DaiBk\Library
+ * @package Dai\Lib\Framework\Library
  * SPECIAL 9
  * CUSTOM 8
  * DEBUG 7

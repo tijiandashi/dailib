@@ -5,7 +5,7 @@
  * Date: 2017/11/21
  * Time: 下午7:05
  */
-namespace Dai\Lib;
+namespace Dai\Lib\Framework\Library;
 
 class Runmode
 {

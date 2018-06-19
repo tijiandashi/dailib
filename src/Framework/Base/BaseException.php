@@ -8,7 +8,7 @@
 
 namespace Dai\Lib\Framework\Base;
 
-class Exception
+class BaseException extends \Exception
 {
     const OK = 0;
     const INTER_ERROR = 1000;

@@ -6,7 +6,9 @@
  * Time: 下午8:08
  */
 
-class Service
+namespace Dai\Lib\Framework\Base;
+
+class BaseService
 {
 
 }

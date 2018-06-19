@@ -5,7 +5,7 @@
  * Date: 2017/11/19
  * Time: 下午3:15
  */
-namespace Dai\Lib;
+namespace Dai\Lib\Framework\Library;
 
 /**
  * Class Distance
